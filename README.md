@@ -57,7 +57,7 @@ Average = (85 + 90 + 78) / 3 = 84.33  →  Letter Grade: B
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CodeAlpha_StudentGradeTracker.git
+git clone https://github.com/Narasimman-02/CodeAlpha_StudentGradeTracker.git
 cd CodeAlpha_StudentGradeTracker
 ```
 
