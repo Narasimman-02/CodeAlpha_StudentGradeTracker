@@ -49,20 +49,35 @@ Average = (85 + 90 + 78) / 3 = 84.33  →  Letter Grade: B
 
 ---
 
-### 🛠️ How to Run
+## 🚀 How to Run
+
+### Prerequisites
+- Java JDK 17 or later installed
+
+### 1. Clone the repository
 
 ```bash
-# Step 1 — Create output folder
-mkdir out
-
-# Step 2 — Compile
-javac src/StudentGradeTracker.java -d out/
-
-# Step 3 — Run
-java -cp out/ StudentGradeTracker
+git clone https://github.com/YOUR_USERNAME/CodeAlpha_StudentGradeTracker.git
+cd CodeAlpha_StudentGradeTracker
 ```
 
----
+### 2. Create the output folder
+
+```bash
+mkdir out
+```
+
+### 3. Compile the program
+
+```bash
+javac -d out src/StudentGradeTracker.java
+```
+
+### 4. Run the program
+
+```bash
+java -cp out StudentGradeTracker
+```
 
 ### 💡 Concepts Used
 - **OOP** — `Student` inner class with encapsulated fields and methods
