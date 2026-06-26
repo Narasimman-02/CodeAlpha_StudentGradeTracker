@@ -1,12 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * CodeAlpha Internship - Task 1: Student Grade Tracker
- * Author: [Your Name]
- * Description: A console-based Java application to manage student grades,
- *              calculate statistics, and display a summary report.
- */
 public class StudentGradeTracker {
 
     // ─── Inner class to represent a Student ───────────────────────────────────
@@ -70,7 +64,7 @@ public class StudentGradeTracker {
     // ─── Display main menu ────────────────────────────────────────────────────
     static void printMenu() {
         System.out.println();
-        System.out.println("     STUDENT GRADE TRACKER — MENU     ");
+        System.out.println("  STUDENT GRADE TRACKER — MENU     ");
         System.out.println("  1. Add New Student                  ");
         System.out.println("  2. Add Grade to Student             ");
         System.out.println("  3. View Student Report              ");
